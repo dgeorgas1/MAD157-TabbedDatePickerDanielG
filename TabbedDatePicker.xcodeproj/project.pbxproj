@@ -13,6 +13,8 @@
 		3F235F632B8BC25900B53E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F235F612B8BC25900B53E1F /* Main.storyboard */; };
 		3F235F652B8BC25A00B53E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F235F642B8BC25A00B53E1F /* Assets.xcassets */; };
 		3F235F682B8BC25A00B53E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F235F662B8BC25A00B53E1F /* LaunchScreen.storyboard */; };
+		3F235F702B8BC90C00B53E1F /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F235F6F2B8BC90C00B53E1F /* AddFoodViewController.swift */; };
+		3FB60D7B2B8C1E7000D104C0 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB60D7A2B8C1E7000D104C0 /* PlanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3F235F642B8BC25A00B53E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F235F672B8BC25A00B53E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F235F692B8BC25A00B53E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F235F6F2B8BC90C00B53E1F /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		3FB60D7A2B8C1E7000D104C0 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlanViewController.swift; path = ../PlanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				3F235F5B2B8BC25900B53E1F /* AppDelegate.swift */,
 				3F235F5D2B8BC25900B53E1F /* SceneDelegate.swift */,
 				3F235F5F2B8BC25900B53E1F /* ViewController.swift */,
+				3F235F6F2B8BC90C00B53E1F /* AddFoodViewController.swift */,
+				3FB60D7A2B8C1E7000D104C0 /* PlanViewController.swift */,
 				3F235F612B8BC25900B53E1F /* Main.storyboard */,
 				3F235F642B8BC25A00B53E1F /* Assets.xcassets */,
 				3F235F662B8BC25A00B53E1F /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				3F235F602B8BC25900B53E1F /* ViewController.swift in Sources */,
 				3F235F5C2B8BC25900B53E1F /* AppDelegate.swift in Sources */,
+				3F235F702B8BC90C00B53E1F /* AddFoodViewController.swift in Sources */,
 				3F235F5E2B8BC25900B53E1F /* SceneDelegate.swift in Sources */,
+				3FB60D7B2B8C1E7000D104C0 /* PlanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
